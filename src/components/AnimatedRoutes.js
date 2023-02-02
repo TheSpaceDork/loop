@@ -14,10 +14,10 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence initial={false}>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<SplashScreen />} />
+        {/* <Route path="/" element={<SplashScreen />} /> */}
         <Route exact path="/login" element={<Login />} />
 
-        <Route exact path="/landingpage" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route
           exact
           path="/dashboard"
