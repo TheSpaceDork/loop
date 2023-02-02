@@ -39,7 +39,7 @@ const EmailSignup = () => {
 
         <div className= ' w-full lg:w-[40rem]  h-[120vh] relative p-8 text-center'>
           <div className='mb-8'>
-            <Link to="/landingpage" className='duration-300 ease-in-out'>
+            <Link to="/" className='duration-300 ease-in-out'>
                 {theme === "light" ? <img src={Logo} alt="" className='mx-auto mb-8 duration-300 ease-in-out' /> : <img src={Logo2} alt="" className='mx-auto mb-8 duration-300 ease-in-out' />}
               
             </Link>

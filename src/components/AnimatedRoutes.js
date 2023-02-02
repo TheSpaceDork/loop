@@ -2,7 +2,7 @@ import { React } from "react";
 import LandingPage from "../pages/LandingPage";
 import Dashboard from "../pages/Dashboard";
 import Login from "../pages/Login";
-import SplashScreen from "../pages/SplashScreen";
+// import SplashScreen from "../pages/SplashScreen";
 import Signup from "../pages/Signup";
 import { Routes, Route, useLocation } from "react-router-dom";
 import EmailSignup from "./EmailSignup";
