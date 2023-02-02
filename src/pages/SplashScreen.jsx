@@ -18,7 +18,7 @@ const SplashScreen = () => {
         animate={{ x: "0%", }}
         transition={{duration:0.05, ease: "easeInOut"}}
      exit={{opacity:1}}
-      className="bg-black w-screen h-screen  "
+      className="bg-black w-full h-full  "
       >
           <video
                         src={videoSplash}
@@ -26,7 +26,7 @@ const SplashScreen = () => {
                         controls={false}
                         muted
                         autoPlay
-                        className="w-[95%] overflow-x-hidden mx-auto lg:w-screen h-screen object-cover"
+                        className="w-[95%] overflow-x-hidden mx-auto lg:w-full h-full object-cover"
                     />
       </motion.div>
   )

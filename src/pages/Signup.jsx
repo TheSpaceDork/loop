@@ -37,8 +37,8 @@ const Signup = () => {
         animate={{ x: "0%", }}
         transition={{duration:0.05, ease: "easeInOut"}}
      exit={{opacity:1}}
-        id={theme} className='overflow-x-hidden rightFace w-screen min-h-screen' >
-      <div className='w-screen min-h-screen container-opaque bg-white bg-opacity-80 flex justify-center items-center '>
+        id={theme} className='overflow-x-hidden rightFace w-full min-h-full' >
+      <div className='w-full min-h-full container-opaque bg-white bg-opacity-80 flex justify-center items-center '>
 
         <div className='w-full lg:w-[40rem]  h-[120vh] relative p-8 text-center'>
           <div className='mb-8'>

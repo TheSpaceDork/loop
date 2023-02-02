@@ -78,7 +78,7 @@ console.log(error)
         transition={{duration:0.05, ease: "easeInOut"}}
      exit={{opacity:1}}
         id={theme}
-        className="bg-black overflow-x-hidden text-white w-screen min-h-screen px-6 pt-32 pb-16 lg:px-32 lg:pt-32 relative">
+        className="bg-black overflow-x-hidden text-white w-full min-h-full px-6 pt-32 pb-16 lg:px-32 lg:pt-32 relative">
         <DashNav settingsMobile={settingsMobile} />
         {/* <Sidebar /> */}
         <div className='fixed left-0 hidden profile-switch bg-white text-black top-[30%] lg:flex flex-col items-center rounded-full space-y-8 py-8 min-h-[1rem] w-[60px]'>

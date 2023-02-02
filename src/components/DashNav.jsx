@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 const DashNav = (props) => {
@@ -8,7 +9,7 @@ const DashNav = (props) => {
       <nav className='fixed top-0 nav-light left-0 right-0 px-8 lg:px-32 py-4 bg-opacity-75 backdrop-blur-xl z-10'>
           <div className='flex justify-between items-center'>
               <div>
-                  <h1 className='text-2xl font-bold ' >Loop</h1>
+                  <h1 className='text-2xl font-bold ' ><Link to="/">Loop</Link> </h1>
               </div>
               <div className='flex items-center space-x-6 '>
                   <div className='hidden  bg-white rounded-full search px-4 py-1 lg:flex items-center'>
