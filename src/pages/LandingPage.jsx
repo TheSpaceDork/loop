@@ -13,7 +13,7 @@ const LandingPage = () => {
   };
   return (
      <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <motion.div id={theme} className='bg-[#000000] text-white min-h-[200vh]'
+      <motion.div id={theme} className='bg-[#000000] text-white min-h-[200vh] overflow-x-hidden'
   initial={{x:"100%", }}
         animate={{ x: "0%", }}
         transition={{duration:0.05, ease: "easeInOut"}}

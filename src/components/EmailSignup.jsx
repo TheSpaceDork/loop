@@ -20,7 +20,6 @@ const EmailSignup = () => {
     setError('')
     try {
       await createUser(email, password)
-      //  await updateProfile(createUser({ displayName }))
      
       navigate('/dashboard')
     }catch (e) {
