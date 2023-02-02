@@ -35,7 +35,7 @@ const SplashScreen = () => {
         muted
         autoPlay
         onEnded={() => navigate("/landingpage")}
-        className="w-[95%] overflow-x-hidden block mx-auto lg:w-full h-full object-cover"
+        className="w-[95%] overflow-x-hidden  mx-auto lg:w-full h-full object-cover"
       />
     </motion.div>
   );
