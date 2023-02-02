@@ -33,7 +33,7 @@ const Navbar = () => {
               {/* mobile nav menu */}
        <div
           ref={navRef}
-              className=" lg:hidden flex flex-col space-y-12 items-center pt-20 pb-16 fixed -right-[100vw] top-0 bg-white bg-opacity-80 backdrop-blur-xl h-[560px] w-[350px] z-[40] duration-700 ease-in-out" >
+              className=" lg:hidden flex flex-col space-y-12 items-center pt-20 pb-16 fixed -right-[200vw] top-0 bg-white bg-opacity-80 backdrop-blur-xl h-[560px] w-[350px] z-[40] duration-700 ease-in-out" >
               <div onClick={showNavBar} className='lg:hidden block outline outline-[1px] outline-black px-2 absolute top-6 right-9'>
                   <i className="fa-solid fa-xmark text-lg text-black cursor-pointer"></i>
               </div>
