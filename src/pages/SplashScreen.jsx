@@ -26,7 +26,7 @@ const SplashScreen = () => {
       animate={{ x: "0%", }}
       transition={{duration:0.05, ease: "easeInOut"}}
       exit={{opacity:1}}
-      className="bg-black w-full h-full flex justify-center items-center"
+      className="bg-black w-full h-full px-8"
     >
       <video
         src={videoSplash}
@@ -35,7 +35,7 @@ const SplashScreen = () => {
         muted
         autoPlay
         onEnded={() => navigate("/landingpage")}
-        className="w-[95%] overflow-x-hidden  lg:w-screen h-[50%] object-cover"
+        className="w-[95%]   mx-auto lg:w-screen h-screen object-cover"
       />
     </motion.div>
   );
