@@ -26,7 +26,7 @@ const SplashScreen = () => {
       animate={{ x: "0%", }}
       transition={{duration:0.05, ease: "easeInOut"}}
       exit={{opacity:1}}
-      className="bg-black w-full h-full px-8"
+      className="bg-black w-full h-full px-2 lg:px-8"
     >
       <video
         src={videoSplash}
