@@ -62,7 +62,7 @@ const Login = () => {
           </div>
           <div className=" w-full lg:w-[25rem] form-container bg-[#f4f4f4] rounded-xl text-center mx-auto py-6 space-y-8">
             <h1 className='text-xl font-semibold'>Log In Using </h1>
-            <div className='mx-auto bg-black text-white py-2  rounded-full w-[20rem] text-lg flex items-center justify-center cursor-pointer'><i className="fa-brands fa-twitter text-3xl mr-4"></i>  Twitter</div>
+            {/* <div className='mx-auto bg-black text-white py-2  rounded-full w-[20rem] text-lg flex items-center justify-center cursor-pointer'><i className="fa-brands fa-twitter text-3xl mr-4"></i>  Twitter</div> */}
             <div onClick={handleGoogleSignIn} className='mx-auto bg-black text-white py-2  rounded-full w-[20rem] text-lg flex items-center justify-center cursor-pointer'> <i className="fa-brands fa-google text-3xl mr-4"></i> Google</div>
             <div className='bg-[#dcdcdc] form-switch text-[#333333] rounded-full py-3 px-1 w-[15rem] mx-auto'> <Link to="/Login:emailLogin">Use Your Email Instead</Link> </div>
           </div>
