@@ -20,7 +20,8 @@ const Login = () => {
   }
    useEffect(() => {
      if (user != null) {
-         navigate('/dashboard')
+      
+   navigate('/dashboard')
 }
   }, [navigate, user])
    const [theme, setTheme] = useState("dark");
@@ -35,8 +36,8 @@ const Login = () => {
         transition={{duration:0.05, ease: "easeInOut"}}
      exit={{opacity:1}}
         id={theme}
-        className='rightFace w-full min-h-full overflow-x-hidden'>
-      <div className='container-opaque w-full min-h-full bg-white bg-opacity-80 flex justify-center items-center '>
+        className='rightFace w-screen min-h-screen'>
+      <div className='container-opaque w-screen min-h-screen bg-white bg-opacity-80 flex justify-center items-center '>
 
         <div className=' w-full  lg:w-[40rem]  h-[90vh] relative p-4 mt-[80px] lg:p-8 text-center'>
           <div className='mb-8'>
